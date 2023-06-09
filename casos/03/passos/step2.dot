@@ -1,0 +1,13 @@
+digraph "AFER" {
+    _nil0 [style="invis"]
+    _nil0 -> i [label=""]
+    i -> B [label=" 0"]
+    B -> B [label=" 0+10"]
+    B -> D [label=" 11"]
+    D -> B [label=" 0"]
+    D -> E [label=" 1"]
+    E -> B [label=" 0"]
+    E -> E [label=" 1"]
+    E -> f [label=" λ"]
+    f [peripheries=2]
+}

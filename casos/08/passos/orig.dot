@@ -1,0 +1,11 @@
+digraph "AFER" {
+    _nil0 [style="invis"]
+    _nil0 -> p0 [label=""]
+    p0 -> i0 [label=" a"]
+    p0 -> i1 [label=" b"]
+    i0 -> p0 [label=" a"]
+    i0 -> p1 [label=" b"]
+    p1 -> i1 [label=" a"]
+    i1 -> p1 [label=" a"]
+    i1 [peripheries=2]
+}

@@ -1,0 +1,8 @@
+digraph "AFER" {
+    _nil0 [style="invis"]
+    _nil0 -> i [label=""]
+    i -> 1 [label=" λ"]
+    1 -> 1 [label=" (λ+b)a"]
+    1 -> f [label=" b*+((λ+b)b+b*a)(aa)*a"]
+    f [peripheries=2]
+}
